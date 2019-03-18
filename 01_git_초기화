@@ -4,7 +4,7 @@
 2. git 명령어로 초기화하기
    ex) git init
 
-3. 버전 관리 대상 파일추가하기
+3. 버전 관리 대상 파일추가하기(== update/commit 대상 파일 추가)
    ex) git add fileName
 
 4. git 원격 주소 추가하기
@@ -17,5 +17,14 @@
 1. 3번에 모든 파일을 추가하고 싶으면 `.`사용하기
    ex) git add .
 
-2. 5번에 원격 주소 푸시할때 branch 지정하기
+2. 3번에 add 특정파일  취소하기
+   ex) git reset fileName
+
+3. 3번에 add 전부 취소하기
+   ex) git reset
+
+4. 5번에 원격 주소 푸시할때 branch 지정하기
    ex) git push origin branchName
+
+5. git add 상태 확인하기
+   ex) git status
