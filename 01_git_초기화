@@ -1,0 +1,21 @@
+1. 터미널로 프로젝트 경로에 들어가기
+   ex) mkdir project -> cd project
+
+2. git 명령어로 초기화하기
+   ex) git init
+
+3. 버전 관리 대상 파일추가하기
+   ex) git add fileName
+
+4. git 원격 주소 추가하기
+   ex) git remote add origin https://github.com/KakaoTocs/Git_Study.git
+
+5. git 원격 주소에 푸시하기
+   ex) git push origin master
+
+*부록*
+1. 3번에 모든 파일을 추가하고 싶으면 `.`사용하기
+   ex) git add .
+
+2. 5번에 원격 주소 푸시할때 branch 지정하기
+   ex) git push origin branchName
