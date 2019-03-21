@@ -28,3 +28,8 @@
 
 5. git add 상태 확인하기
    ex) git status
+
+6. git 파일 변경사항 확인하기
+   ex) git diff
+
+
